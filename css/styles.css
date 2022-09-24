@@ -1,0 +1,66 @@
+body {
+  font-size: 14px;
+  background: hsl(30, 38%, 92%);
+  align-content: center;
+}
+
+img {
+  height: 412px;
+  width: 236px;
+}
+
+h5 {
+  font-family: 'Fraunces', serif;
+  font-size: 10px;
+}
+
+button {
+  font-family: 'Montserrat', sans-serif;
+  background: #3c8067;
+  color: whitesmoke;
+  height: 32px;
+  width: 172px;
+  border-radius: 5px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  margin-top: 100px;
+  border-radius: 4px;
+  width: 504px;
+  overflow: hidden;
+}
+
+.description {
+  background: whitesmoke;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 48px;
+}
+
+.price {
+  font-family: 'Fraunces', serif;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: baseline;
+}
+
+.lowerprice {
+  font-size: 24px;
+  color: #3c8067;
+  align-items: center;
+  justify-items: center;
+  font-weight: bold;
+}
